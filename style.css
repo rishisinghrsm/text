@@ -28,8 +28,9 @@ body{
     
         width: 98%;
         /* height: ; */
-        background-color: white;
+        background-color: black;
     border-radius: 10px;
+         border:1px solid white;
 
     }
 }
@@ -41,7 +42,7 @@ body{
 }
 .hr{
     width: 70%;
-    border: 1px solid #d32f2f;
+    border: 1px solid white;
     margin: 20px auto ;
 }
 form{
@@ -55,7 +56,7 @@ form textarea{
     height: 150px;
     padding: 5px;
     border-radius: 10px;
-    border: 1px dotted #d32f2f;
+    border: 1px dotted white;
     resize: none;
     background: black;
     color: white;
@@ -64,17 +65,19 @@ form textarea{
 form select{
     width: 100%;
     padding: 10px;
-    border: 1px dotted #d32f2f;
+    border: 1px dotted white;
+    background: black;
+    color:white;
 }
 form button{
     width: 100%;
     margin: 20px auto;
     padding: 10px;
     background:transparent;
-    color: #d32f2f;
+    color:white;
     font-size: 21px;
     
-    border: 1px dotted #d32f2f;
+    border: 1px dotted white;
     border-radius: 6px;
     cursor: pointer;
 }
